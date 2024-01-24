@@ -93,3 +93,128 @@ body {
     font-weight: 300;
     padding-right: 8px;
 }
+
+.library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__content .fa-plus {
+   margin: 24px 10px;
+}
+
+.section-playlist, .section-podcast{
+    background-color: #242424;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 10px;
+    display: flex;
+    color: #b3b3b3;
+    min-block-size: 40px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.section-playlist .create__playlist, .section-podcast .browse__podcast, .footer__sign-up {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 9999px;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    border: 0px;
+    width: 113px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.section-podcast .browse__podcast {
+    width: 130px;
+}
+
+.section-playlist .section-playlist__playlist, .section-podcast .section-podcast__podcast{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__playlist .text, .section-podcast__podcast .text{
+    padding-bottom: 14px;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.section-playlist__playlist .title, .section-podcast__podcast .title{
+    font-weight: 700;
+}
+
+.section-playlist__playlist .subtitle, .section-podcast__podcast .subtitle{
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.sidebar .cookies:hover{
+    text-decoration: underline;
+}
+
+.languages .languages__button{
+    background-color: transparent;
+    border-radius: 9999px;
+    border: 1px solid #878787;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    padding: 8px;
+    width: 100px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+footer{
+    background-image: linear-gradient(to right, #ac2c99,#855cc1, #9896d8, #5594ee);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.footer-banner .text{
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.footer-banner .title{
+    font-weight: 600;
+    padding-top: 12px;
+}
+
+.footer-banner .subtitle{
+    font-weight: 200;
+    padding-top: 6px;
+}
+
+.footer-banner .footer__sign-up{
+    margin-top: auto;
+}
